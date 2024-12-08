@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(90deg, #005f1d, #addd55);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Form Styling */
+form {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Fieldsets and Legends */
+fieldset {
+    border: 1px solid #005f1d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #005f1d;
+}
+
+/* Form Inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Buttons */
+button {
+    background: #005f1d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #00b336;
+}
+
+button[type="reset"] {
+    background: #6c757d;
+}
+
+button[type="reset"]:hover {
+    background: #495057;
+}
+
+/* Dynamic Meal Plan Section */
+#mealInputs {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
+
+/* Style the new buttons in the generated page */
+button {
+    background: #005f1d; /* Green for download/print */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #00b336;
+}
+
+button:active {
+    background: #005f1d;
+}
+
+button:focus {
+    outline: none;
+}

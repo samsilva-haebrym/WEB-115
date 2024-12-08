@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="mealstyles.css">
+</head>
+<body>
+    <!-- Banner -->
+    <header>
+        <h1>Build Your Meal Plan</h1>
+        <p>Samuel Elias Costa Silva - WEB-115-0007 </p>
+    </header>
+
+    <!-- Form Section -->
+    <form id="mealPlanForm">
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter a valid email" required><br><br>
+            
+            <label for="goal">Weekly Goal:</label>
+            <input type="text" id="goal" placeholder="Enter your fitness goal"><br><br>
+        </fieldset>
+
+        <!-- Meal Plan Inputs -->
+        <fieldset>
+            <legend>Weekly Meal Plan</legend>
+            <div id="mealInputs">
+                <!-- JavaScript will populate inputs for each day -->
+            </div>
+        </fieldset>
+
+        <!-- Buttons -->
+        <button type="button" id="generatePlan">Generate Meal Plan</button>
+        <button type="reset">Clear Planner</button>
+    </form>
+
+    <!-- Link to JavaScript -->
+    <script src="mealplan.js"></script>
+</body>
+</html>
